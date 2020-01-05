@@ -1,7 +1,6 @@
 import gkeepapi
 
-# Gmailアカウントでログイン、xxxとyyyはご自分ので書き換え
-
+# Gmailアカウントでログイン
 with open("Secret.txt", "r", encoding="utf-8") as Secret:
     reader = Secret.read().split()
     userID = reader[0]

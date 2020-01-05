@@ -11,6 +11,7 @@ keep = gkeepapi.Keep()
 
 s = keep.login(userID, Password)
 
+# memoと書かれたKeepを探します
 gnotes = keep.find(query='memo')
 
 for x in gnotes:
